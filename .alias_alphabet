@@ -1,0 +1,15 @@
+#
+# Alias Alphabet
+#
+
+# Deactivate current anaconda environment.
+alias D='conda deactivate'
+# Install package using root.
+# Update for your systems package manager.
+alias I='sudo pacman -S'
+# Root execution of previous command (!!).
+alias R='sudo !!'
+# Search for packages, must be updated for your system.
+alias S='pacman -Ss'
+
+
