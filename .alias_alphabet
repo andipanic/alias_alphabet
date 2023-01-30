@@ -1,12 +1,32 @@
 #
 # Alias Alphabet
 #
-
+### Guidelines ##############################################
+# 
+# Aliased commands should be:
+# 	longer than 3 characters.
+# 	a mnemonic device.
+# 	very commonly used.	
+#
+#############################################################
+#
+# Install using following command:
+# 	source .alias_alphabet
+# 
+#############################################################
+#
+# Aliases
+#
+# Activate conda environment
+alias A='conda activate'
 # Deactivate current anaconda environment.
 alias D='conda deactivate'
-# Install package using root.
-# Update for your systems package manager.
+# Install package using root, must be updated for your system.
 alias I='sudo pacman -S'
+# Mp3 from youtube.
+alias M="yt-dlp -f 'ba' -x --audio-format mp3"
+# Quiet
+alias Q='sudo rmmod pcspkr' 
 # Root execution of previous command (!!).
 alias R='sudo !!'
 # Search for packages, must be updated for your system.
